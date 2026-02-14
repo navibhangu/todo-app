@@ -1,7 +1,8 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "customConditions": ["development"],
     "baseUrl": ".",
     "strict": true,
     "paths": {
